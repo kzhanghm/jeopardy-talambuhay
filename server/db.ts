@@ -6,15 +6,15 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+       question: 'Who are these people?',
+       imgSrc: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTrw0gbxmkscmf_oCk8XuUAw3-ad1JwWcuxqwmZxYBiRS125G5I",
+       answer: 'The Powerpuff Girls'
     },
     {
         points: 200,
-        question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+        question: 'Who is this?',
+        imgSrc: "https://en.wikipedia.org/wiki/Lexie_Grey",
+        answer: 'Lexie Grey'
     },
     {
         points: 300,
@@ -34,9 +34,8 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question:
-                'This is Donu, a character from which video game?',
-            imgSrc: '/donu-gif.gif',
-            answer: 'Slay the Spire',
+                'Which country is the most similar to the U.S. in terms of land mass?',
+        answer: 'China',
         },
         {
             points: 100,
