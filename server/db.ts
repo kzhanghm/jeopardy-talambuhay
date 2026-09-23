@@ -8,80 +8,89 @@ const pastQuestions: Question[] = sortQuestions([
         points: 100,
        question: 'Who are these people?',
        imgSrc: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTrw0gbxmkscmf_oCk8XuUAw3-ad1JwWcuxqwmZxYBiRS125G5I",
-       answer: 'The Powerpuff Girls'
+       answer: 'The Powerpuff Girls',
     },
     {
         points: 200,
         question: 'Who is this?',
         imgSrc: "https://en.wikipedia.org/wiki/Lexie_Grey",
-        answer: 'Lexie Grey'
+        answer: 'Lexie Grey',
     },
     {
         points: 300,
-        question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+        question: 'Who is the artist of this piece?',
+        imgSrc: "https://www.goretro.com/2015/01/the-weird-world-of-walter-and-margaret.html",
+        answer: 'Margaret Keane',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'What state is this flag?',
+        imgSrc: "https://en.wikipedia.org/wiki/Flag_of_Alaska",
+        answer: 'Alaska',
     }
 ]);
 
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 400,
+            points: 300,
+            question: 'Who is this character and what show is she from?',
+            imgSrc: "https://www.ign.com/wikis/avatar-the-last-airbender-legend-of-korra/Ikki",
+            answer: 'Ikki' ,       
+        },
+        {
+            points: 100,
             question:
                 'Which country is the most similar to the U.S. in terms of land mass?',
         answer: 'China',
         },
         {
-            points: 100,
-            question:
-                'Tahini is made from which seed?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
-            answer: 'Sesame',
+            points: 400,
+            question: 'What were cello strings originally made out of before the mid 20th century?',
+        answer: 'Stretched sheep or goat guts',
         },
         {
             points: 200,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
-        },
-        {
-            points: 300,
-            question:
-                'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-            imgSrc:
-                "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Italy',
+            question: 'Where was the 1776 Retreat of the American Revolution, led by George Washington?',
+        answer: 'Bergen County',
+            
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question:
-            'This type of 2D drawing allows you to see the sides of a 3D object at the same scale.',
-        imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
-        answer: 'Isometric',
+        question: 'Who is the author of Fahrenheit 451?',
+        answer: 'Ray Bradbury'
+    }   
+    {
+        points: 200,
+        question: 'What is the southernmost city of the contiguous United States?',
+        answer: 'Key West, Florida',
+    }
+    {
+        points: 300,
+        question: 'Which dessert place am I planning on going to this weekend in Fort Lee, New Jersey?',
+        answer: "Mango Mango",
+    }
+    {
+        points: 400,
+        question: 'Of what nationality is the composer Francis Poulenc?',
+        answer: 'French'
     }
 ]);
 
 
 const categories = [
     {
-        title: 'Ms Feng\'s Past',
+        title: 'Katherine\'s Past',
         questions: pastQuestions
     },
     {
-        title: `Ms. Feng's Present`,
+        title: `Katherine's Present`,
         questions: presentQuestions
     },
     {
-        title: "Ms. Feng's Future",
+        title: "Katherine's Future",
         questions: futureQuestions
     }
 ];
