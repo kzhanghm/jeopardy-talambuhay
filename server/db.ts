@@ -13,19 +13,19 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question: 'Who is this?',
-        imgSrc: "https://en.wikipedia.org/wiki/Lexie_Grey",
+        imgSrc: "https://media1.popsugar-assets.com/files/thumbor/QflVdEKpgsp6NdVnj29I7h7uwxA=/fit-in/792x543/top/filters:format_auto():upscale()/2021/03/26/579/n/1922283/tmp_EnJWw0_a17c76ad6ae690f7_TCDGRAN_EC343.jpg",
         answer: 'Lexie Grey',
     },
     {
         points: 300,
         question: 'Who is the artist of this piece?',
-        imgSrc: "https://www.goretro.com/2015/01/the-weird-world-of-walter-and-margaret.html",
+        imgSrc: "https://www.bonhams.com/_next/image.jpg?url=https%3A%2F%2Fimg2.bonhams.com%2Fimage%3Fsrc%3DImages%2Flive%2F2023-07%2F11%2F25337812-1-4.jpg%26height%3D430%26quality%3D90&w=2400&q=75",
         answer: 'Margaret Keane',
     },
     {
         points: 400,
         question: 'What state is this flag?',
-        imgSrc: "https://en.wikipedia.org/wiki/Flag_of_Alaska",
+        imgSrc: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/1280px-Flag_of_Alaska.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
         answer: 'Alaska',
     }
 ]);
@@ -35,7 +35,7 @@ const presentQuestions: Question[] =
         {
             points: 300,
             question: 'Who is this character and what show is she from?',
-            imgSrc: "https://www.ign.com/wikis/avatar-the-last-airbender-legend-of-korra/Ikki",
+            imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/avatar-the-last-airbender/2/24/Ikki.jpg",
             answer: 'Ikki' ,       
         },
         {
@@ -47,7 +47,7 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question: 'What were cello strings originally made out of before the mid 20th century?',
-        answer: 'Stretched sheep or goat guts',
+        answer: 'Sheep or goat guts',
         },
         {
             points: 200,
@@ -60,22 +60,22 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question: 'Who is the author of Fahrenheit 451?',
-        answer: 'Ray Bradbury'
-    }   
+        answer: 'Ray Bradbury',
+    },
     {
         points: 200,
         question: 'What is the southernmost city of the contiguous United States?',
-        answer: 'Key West, Florida',
-    }
+        answer: 'Key West',
+    },
     {
         points: 300,
-        question: 'Which dessert place am I planning on going to this weekend in Fort Lee, New Jersey?',
-        answer: "Mango Mango",
-    }
+        question: 'What town in New Jersey closest to the George Washington Bridge has a Mango Mango?',
+        answer: "Fort Lee",
+    },
     {
         points: 400,
         question: 'Of what nationality is the composer Francis Poulenc?',
-        answer: 'French'
+        answer: 'French',
     }
 ]);
 
