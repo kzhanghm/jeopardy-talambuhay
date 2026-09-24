@@ -12,7 +12,7 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 200,
-        question: 'Who is this?',
+        question: 'Who is this character from Greys Anatomy?',
         imgSrc: "https://media1.popsugar-assets.com/files/thumbor/QflVdEKpgsp6NdVnj29I7h7uwxA=/fit-in/792x543/top/filters:format_auto():upscale()/2021/03/26/579/n/1922283/tmp_EnJWw0_a17c76ad6ae690f7_TCDGRAN_EC343.jpg",
         answer: 'Lexie Grey',
     },
@@ -34,9 +34,9 @@ const presentQuestions: Question[] =
     sortQuestions([
         {
             points: 300,
-            question: 'Who is this character and what show is she from?',
+            question: 'Who is this character from The Legend of Korra?',
             imgSrc: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/avatar-the-last-airbender/2/24/Ikki.jpg",
-            answer: 'Ikki' ,       
+            answer: 'Ikki',
         },
         {
             points: 100,
@@ -51,7 +51,7 @@ const presentQuestions: Question[] =
         },
         {
             points: 200,
-            question: 'Where was the 1776 Retreat of the American Revolution, led by George Washington?',
+            question: 'What county did the 1776 Retreat of the American Revolution, led by George Washington, take place in?',
         answer: 'Bergen County',
             
         }
