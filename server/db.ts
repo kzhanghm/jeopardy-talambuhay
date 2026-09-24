@@ -64,8 +64,8 @@ const futureQuestions: Question[] = sortQuestions([
     },
     {
         points: 200,
-        question: 'What is the southernmost city of the contiguous United States?',
-        answer: 'Key West',
+        question: 'Of what nationality is the composer Francis Poulenc?',
+        answer: 'French',
     },
     {
         points: 300,
@@ -74,8 +74,8 @@ const futureQuestions: Question[] = sortQuestions([
     },
     {
         points: 400,
-        question: 'Of what nationality is the composer Francis Poulenc?',
-        answer: 'French',
+        question: 'What is the southernmost city of the contiguous United States?',
+        answer: 'Key West',
     }
 ]);
 
